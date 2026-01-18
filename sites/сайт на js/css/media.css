@@ -1,0 +1,566 @@
+
+/*adaptation*/
+
+@media screen and (max-width: 1367px ) {
+    .header-h1{
+        width: 95%;
+    }
+    .header-p1{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1193px ) {
+    nav{
+        width: 80%;
+    }
+    .content1-1{
+        width: 80%;
+    }
+    .content2-1{
+        width: 80%;
+    }
+    .main3-p1{
+        width: 90%;
+    }
+    .content6-1{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1050px ) {
+    header{
+        padding-bottom: 90px;
+    }
+    .header-h1{
+        font-size: 45px;
+        width: 85%;
+    }
+    .header-p1{
+        font-size: 18px;
+        width: 95%;
+    }
+    .header-img1{
+        width: 200px;
+        height: 140px;
+    }
+    .header-img2{
+        width: 200px;
+        height: 140px;
+    }
+    .header-img3{
+        width: 200px;
+        height: 140px;
+    }
+    .content2-1{
+        width: 90%;
+    }
+    .main2{
+        overflow-x: auto;
+    }
+    .content3-1{
+        width: 1200px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .content5-1-div1{
+        width: 250px;
+        height: 250px;
+    }
+    .content5-1-div2{
+        width: 250px;
+        height: 250px;
+    }
+    .content5-1-div3{
+        width: 250px;
+        height: 250px;
+    }
+    .main4-h2{
+        font-size: 40px;
+        padding-top: 15px;
+    }
+    .button1{
+        margin-top: 50px;
+    }
+    .button2{
+        margin-top: 98px;
+    }
+    .button3{
+        margin-top: 50px;
+    }
+    .content5-1{
+        margin-top: 60px;
+    }
+    .content5-1-div3:hover{
+        width: 250px;
+    }
+    .content5-1-div2:hover{
+        width: 250px;
+    }
+    .content5-1-div1:hover{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 950px ) {
+    .content5-1{
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 916px ) {
+    .main1-h1{
+        padding-top: 33px;
+    }
+    .content7-1{
+        display: block;
+        padding-top: 40px;
+    }
+    .footer-div1{
+        margin-top: 0px;
+        width: 100%;
+    }
+    .footer-div2{
+        margin-top: 50px;
+        width: 100%;
+    }
+    footer{
+        padding-bottom: 50px;
+    }
+    nav{
+        width: 90%;
+    }
+    .content1-1{
+        width: 90%;
+    }
+    .header-p1{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 820px ) {
+    .content5-1-div1{
+        width: 200px;
+        height: 200px;
+    }
+    .content5-1-div2{
+        width: 200px;
+        height: 200px;
+    }
+    .content5-1-div3{
+        width: 200px;
+        height: 200px;
+    }
+    .main4-h2{
+        font-size: 35px;
+        padding-top: 15px;
+    }
+    .button1{
+        margin-top: 30px;
+    }
+    .button2{
+        margin-top: 72px;
+    }
+    .button3{
+        margin-top: 30px;
+    }
+    .content5-1-div3:hover{
+        width: 200px;
+    }
+    .content5-1-div2:hover{
+        width: 200px;
+    }
+    .content5-1-div1:hover{
+        width: 200px;
+    }
+    .content4-2{
+        width: 500px;
+        height: 400px;
+    }
+    .content5-1{
+        margin-top: 45px;
+    }
+    .main5-p1{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 770px ) {
+    .main1-h1{
+        padding-top: 35px;
+    }
+    .nav-a{
+        font-size: 16px;
+    }
+    .header-p1{
+        font-size: 16px;
+        margin-top: 40px;
+    }
+    .header-h1{
+        padding-top: 75px;
+    }
+    .main1-p1{
+        font-size: 15px;
+    }
+    .main1{
+        padding-bottom: 70px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .content3-1{
+        padding-top: 50px;
+    }
+    .main2{
+        padding-bottom: 55px;
+    }
+    .main3-h1{
+        font-size: 40px;
+    }
+    .main3-p1{
+        font-size: 16px;
+    }
+    .main3{
+        height: 450px;
+    }
+    .content4-2{
+        width: 400px;
+    }
+    .main3-h2{
+        font-size: 40px;
+    }
+    .content4-2{
+        margin-top: 60px;
+    }
+    .content5-1{
+        margin: 0 auto;
+        margin-top: 50px;
+        display: block;
+        width: 80%;
+    }
+    .content5-1-div1{
+        float: right;
+        width: 250px;
+        height: 250px;
+    }
+    .content5-1-div2{
+        width: 250px;
+        height: 250px;
+    }
+    .content5-1-div3{
+        margin: 0 auto;
+        margin-top: 50px; 
+        width: 250px;
+        height: 250px;
+    }
+    .content5-1-div1:hover{
+        width: 260px;
+    }
+    .content5-1-div2:hover{
+        width: 260px;
+    }
+    .content5-1-div3:hover{
+        width: 260px;
+    }
+    .main4-h2{
+        padding-top: 35px;
+    }
+    img{
+        width: 150px;
+    }
+    .content6-1-div1{
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 733px ) {
+    .main1-h1{
+        padding-top: 45px;
+    }
+}
+@media screen and (max-width: 700px ) {
+    .header-h1{
+        font-size: 40px;
+    }
+    .header-div1{
+        display: block;
+        text-align: center;
+    }
+    .header-img1{
+        margin-right: 15%;
+    }
+    .header-img3{
+        margin-top: 30px;
+    }
+    .header-p1{
+        margin-top: 30px;
+    }
+    .header-div1{
+        margin-top: 40px;
+    }
+    header{
+        padding-bottom: 50px;
+    }
+    .header-h1{
+        padding-top: 60px;
+    }
+    .content6-1{
+        display: block;
+    }
+    .content6-1-div2{
+        display: flex;
+        margin-top: 80px;
+    }
+    .main5-img{
+        margin-top: 0px;
+    }
+    .main5{
+        margin-top: 80px;
+        padding-bottom: 60px;
+    }
+}
+@media screen and (max-width: 667px ) {
+    .content5-1-div1{
+        float: right;
+        width: 200px;
+        height: 200px;
+    }
+    .content5-1-div2{
+        width: 200px;
+        height: 200px;
+    }
+    .content5-1-div3{
+        margin: 0 auto;
+        margin-top: 50px; 
+        width: 200px;
+        height: 200px;
+    }
+    .content5-1-div1:hover{
+        width: 200px;
+    }
+    .content5-1-div2:hover{
+        width: 200px;
+    }
+    .content5-1-div3:hover{
+        width: 200px;
+    }
+    .main4-h2{
+        padding-top: 10px;
+    }
+    .main5{
+        margin-top: 130px;
+    }
+}
+@media screen and (max-width: 628px ) {
+    .content1-1{
+        width: 95%;
+    }
+    .main1-h1{
+        padding-top: 55px;
+    }
+}
+@media screen and (max-width: 590px ) {
+    .header-h1{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    .header-img1{
+        width: 160px;
+        height: 110px;
+    }
+    .header-img2{
+        width: 160px;
+        height: 110px;
+    }
+    .header-img3{
+        width: 160px;
+        height: 110px;
+    }
+    .content2-1{
+        display: block;
+        padding-top: 30px;
+    }
+    .main1-h1{
+        padding-top: 10px;
+        text-align: center;
+    }
+    .main1-p1{
+       margin-left: 0px;
+       margin-top: 40px;
+    }
+    .main1{
+        padding-bottom: 50px;
+    }
+    .main3-h1{
+        font-size: 30px;
+    }
+    .main3-p1{
+        font-size: 15px;
+    }
+    .content4-1{
+        padding-top: 60px;
+    }
+    .content4-2{
+        width: 300px;
+        height: 300px;
+    }
+    .main3{
+        height: 350px;
+    }
+}
+@media screen and (max-width: 540px ) {
+    .content5-1{
+        margin-top: 80px;
+        width: 90%;
+    }
+     .content5-1-div1{
+        width: 180px;
+        height: 180px;
+    }
+    .content5-1-div2{
+        width: 180px;
+        height: 180px;
+    }
+    .content5-1-div3{
+        margin: 0 auto;
+        margin-top: 30px; 
+        width: 200px;
+        height: 180px;
+    }
+    .content5-1-div1:hover{
+        width: 180px;
+    }
+    .content5-1-div2:hover{
+        width: 180px;
+    }
+    .content5-1-div3:hover{
+        width: 200px;
+    }
+    .button1{
+        margin-top: 20px;
+    }
+    .button2{
+        margin-top: 62px;
+    }
+    .button3{
+        margin-top: 20px;
+    }
+    .main5{
+        margin-top: 100px;
+    }
+    nav{
+        width: 100%;
+        justify-content: center;
+    }
+    .nav-a{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}
+@media screen and (max-width: 446px ) {
+    .content1-1{
+        text-align: center;
+    }
+    .header-h1{
+        width: 100%;
+        font-size: 33px;
+    }
+    .main3-h1{
+        font-size: 25px;
+    }
+    .content5-1{
+        width: 99%;
+    }
+    .main2{
+        overflow-x: unset;
+        padding-bottom: 0px;
+    }
+    .content3-1{
+        width: 100%;
+        display: block;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .main2-div1{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .main2-div2{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .main2-div3{
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+        border-radius: 0px;
+    }
+    .content3-1{
+        padding-top: 10px;
+    }
+    .main2-div1-img{
+        position: absolute;
+    }
+    .main2-h1{
+        padding-top: 35px;
+        margin-left: 40px;
+    }
+    .main2-div2-img{
+        position: absolute;
+    }
+    .main2-div3-img{
+        position: absolute;
+        margin-top: 20px;
+    }
+    .main2-h2{
+        padding-top: 35px;
+        margin-left: 60px;
+    }
+    .main2-h2{
+        padding-top: 46px;
+    }
+}
+@media screen and (max-width: 408px ) {
+    .header-h1{
+        font-size: 28px;
+    }
+    .nav-a{
+        font-size: 14px;
+    }
+    .header-img1{
+        width: 140px;
+        height: 90px;
+    }
+    .header-img2{
+        width: 140px;
+        height: 90px;
+    }
+    .header-img3{
+        width: 140px;
+        height: 90px;
+    }
+    .content5-1-div1{
+        float: none;
+        margin: 0 auto;
+        width: 230px;
+        height: 230px;
+    }
+    .content5-1-div2{
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 230px;
+        height: 230px;
+    }
+    .content5-1-div3{
+        width: 230px;
+        height: 230px;
+    }
+    .content5-1-div1:hover{
+        width: 230px;
+        height: 230px;
+    }
+    .content5-1-div2:hover{
+        width: 230px;
+        height: 230px;
+    }
+    .content5-1-div3:hover{
+        width: 230px;
+        height: 230px;
+    }
+    .main4-h2{
+        padding-top: 28px;
+    }
+}

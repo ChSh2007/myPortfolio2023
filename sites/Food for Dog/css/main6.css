@@ -1,0 +1,74 @@
+/*main6*/
+
+.main6{
+    background-color: #eaf6ff;
+    padding-bottom: 150px;
+}
+.main6-content{
+    width: 75%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.main6-h1{
+    font-size: 45px;
+    font-family: 'Fredoka One', cursive;;
+    font-weight: 500;
+    letter-spacing: 4px;
+    color: rgb(61, 156, 234);
+    text-align: center;
+    padding-top: 80px;
+} 
+.main6-content-block1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.main6-h2{
+    font-size: 35px;
+    font-family: 'Fredoka One', cursive;;
+    font-weight: 500;
+    color: rgb(61, 156, 234);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.main6-p1{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(11, 55, 92);
+    font-weight: 600;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.main6-button-link{
+    text-decoration: none;
+}
+.main6-button{
+    border-radius: 21px;
+    background-color: rgb(24, 108, 177);
+    box-shadow: 0px 4px 42px 0px rgba(3, 3, 3, 0.2);
+    width: 153px;
+    height: 43px;
+    border: none;
+    color: white;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-bottom: 5px;
+    margin-top: 23px;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+.main6-button:hover{
+    cursor: pointer;
+    background-color: rgb(41, 130, 203);
+    transition: 0.3s;
+}
+.main6-content-block1-block1-line{
+    background-color: #a398b4;
+    height: 3px;
+    width: 270px;
+    margin-top: 20px;
+    margin-left: 20px;
+}

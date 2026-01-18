@@ -1,0 +1,103 @@
+
+.main1{
+    background-color: #F0DC7C;
+    position: relative;
+    z-index: 10;
+    margin-top: 100vh;
+    padding-bottom: 50px;
+    min-height: 600px;
+}
+.main1_content{
+    width: 80%;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.main1_content_block1{
+    margin-left: auto;
+    margin-top: 46px;
+}
+.main1_content_block1_block1{
+    border-radius: 20px;
+    width: 60px;
+    height: 60px;
+    background: #E0BE42;
+    margin-top: 30px;
+    margin-left: auto;
+    will-change: auto;
+}
+.main1_content_block1_block2{
+    border-radius: 20px;
+    width: 60px;
+    height: 60px;
+    background: #E0BE42;
+    margin-top: 30px;
+    margin-left: auto;
+    will-change: auto;
+}
+.main1_h1{
+    position: absolute;
+    font-family: 'Jost', sans-serif;
+    color: #fff7d9a3;
+    text-align: center;
+    font-size: 80px;
+    transform: rotate(-90deg);
+    margin-top: 260px;
+    line-height: 70px;
+    left: -2.6%;
+    animation-name: main1_h1_anim;
+    animation-duration: 2.715s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+.main1_h2{
+    font-family: 'Fresca', sans-serif;
+    color: #F4F4F4;
+    font-size: 50px;
+    margin-left: 20px;
+    padding-top: 15px;
+    transition: 0.3s;
+}
+.main1_h3{
+    font-family: 'Fresca', sans-serif;
+    color: #F4F4F4;
+    font-size: 50px;
+    margin-left: 20px;
+    padding-top: 15px;
+}
+.main1_line1{
+    width: 300px;
+    height: 2px;
+    background-color: #F4F4F4;
+    margin-left: 20px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+.main1_line2{
+    width: 300px;
+    height: 2px;
+    background-color: #F4F4F4;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+.main1_p1{
+    font-family: 'Fresca', sans-serif;
+    color: #F4F4F4;
+    font-size: 22px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+.main1_p2{
+    font-family: 'Fresca', sans-serif;
+    color: #F4F4F4;
+    font-size: 22px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    transition: 0.3s;
+}

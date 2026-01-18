@@ -1,0 +1,409 @@
+@media screen and (max-width: 1500px) {
+    .content2-1{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1388px) {
+    .content3-2{
+        width: 90%;
+    }
+    .content3-3{
+        width: 90%;
+    }
+    .content3-4{
+        width: 90%;
+    }
+    .content2-1-div2{
+        position: absolute;
+        right: 10%;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .mouse-parallax{
+        height: 600px;
+    }
+    .content1-1{
+        top: 130px;
+    }
+    .content4-1{
+        width: 65%;
+    }
+    .content1-1-p1{
+        width: 60%;
+    }
+    .content3-2-div{
+        width: 50%;
+    }
+    .content3-3-div{
+        width: 50%;
+    }
+    .content3-4-div{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .content1-1-p1{
+        width: 75%;
+    }
+    .divForImg{
+        height: 300px;
+    }
+    .divForImg:hover{
+        width: 450px;
+    }
+    .decoreElement1{
+        margin-top: 180px;
+    }
+    .textInFoto1{
+        margin-top: 184px;
+    }
+    .textInFoto2{
+        margin-top: 184px;
+    }
+    .textInFoto3{
+        margin-top: 184px;
+    }
+    .textInFoto4{
+        margin-top: 184px;
+    }
+    .textInFoto5{
+        margin-top: 184px;
+    }
+    .textInFoto6{
+        margin-top: 184px;
+    }
+    .content2-1-div2{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width: 820px) {
+    .divForImg:hover{
+        width: 440px;
+    }
+    .content2-1{
+        width: 95%;
+    }
+    .textInFoto1.active{
+        transition: 0.7s;
+        transition-delay: 0.33s; 
+    }
+    .textInFoto2.active{
+        transition: 0.7s;
+        transition-delay: 0.33s; 
+    }
+    .textInFoto3.active{
+        transition: 0.7s;
+        transition-delay: 0.33s; 
+    }
+    .textInFoto4.active{
+        transition: 0.7s;
+        transition-delay: 0.33s; 
+    }
+    .textInFoto5.active{
+        transition: 0.7s;
+        transition-delay: 0.33s; 
+    }
+    .textInFoto6.active{
+        transition: 0.7s;
+        transition-delay: 0.33s; 
+    }
+    .main2-img1{
+        width: 300px;
+    }
+    .main2-img2{
+        width: 300px;
+    }
+    .main2-img3{
+        height: 150px;
+        width: 250px;
+    }
+    .content3-2-div{
+        margin-top: 150px;
+    }
+    .content3-3-div{
+        margin-top: 70px;
+    }
+    .content3-4-div{
+        margin-top: 0px;
+    }
+    .main2{
+        padding-bottom: 100px;
+    }
+    .content4-1{
+        width: 75%;
+    }
+}
+@media screen and (max-width: 769px) {
+    .mouse-parallax{
+        height: 500px;
+    }
+    .content1-1{
+        top: 90px;
+    }
+    .content2-1-div2{
+        display: none;
+    }
+    .content2-1{
+        display: block;
+    }
+    .content2-1-div1{
+        display: block;
+    }
+    #divForimg1{
+        float: left;
+    }
+    #divForimg2{
+        float: left;
+    }
+    #divForimg3{
+        float: left;
+    }
+    #divForimg4{
+        float: left;
+    }
+    #divForimg5{
+        float: left;
+    }
+    #divForimg6{
+        float: left;
+    }
+    .divForImg{
+        width: 49%;
+        margin-top: 4px;
+    }
+    .divForImg:hover{
+        width: 49%;
+    }
+    .textInFoto1{
+        opacity: 1;
+        margin-left: 10px;
+        pointer-events: all;
+        margin-top: 235px;
+    }
+    .textInFoto2{
+        opacity: 1;
+        margin-left: 10px;
+        pointer-events: all;
+        margin-top: 235px;
+    }
+    .textInFoto3{
+        opacity: 1;
+        margin-left: 10px;
+        pointer-events: all;
+        margin-top: 235px;
+    }
+    .textInFoto4{
+        opacity: 1;
+        margin-left: 10px;
+        pointer-events: all;
+        margin-top: 235px;
+    }
+    .textInFoto5{
+        opacity: 1;
+        margin-left: 10px;
+        pointer-events: all;
+        margin-top: 235px;
+    }
+    .textInFoto6{
+        opacity: 1;
+        margin-left: 10px;
+        pointer-events: all;
+        margin-top: 235px;
+    }
+    .textInFoto1.active{
+        opacity: 1;
+        transition: 0s;
+        transition-delay: 0s;
+    }
+    .textInFoto2.active{
+        opacity: 1;
+        transition: 0s;
+        transition-delay: 0s;
+    }
+    .textInFoto3.active{
+        opacity: 1;
+        transition: 0s;
+        transition-delay: 0s;
+    }
+    .textInFoto4.active{
+        opacity: 1;
+        transition: 0s;
+        transition-delay: 0s;
+    }
+    .textInFoto5.active{
+        opacity: 1;
+        transition: 0s;
+        transition-delay: 0s;
+    }
+    .textInFoto6.active{
+        opacity: 1;
+        transition: 0s;
+        transition-delay: 0s;
+    }
+    .main1{
+        padding-bottom: 970px;
+    }
+    .textInFoto-p1{
+        display: none;
+    }
+    .content1-1-p1{
+        width: 95%;
+    }
+    .main3{
+        height: 300px;
+    }
+    .content4-1{
+        padding-top: 100px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .content4-1{
+        width: 90%;
+    }
+    .footer-content{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 630px) {
+    .main2-img1{
+        display: none;
+    }
+    .main2-img2{
+        display: none;
+    }
+    .main2-img3{
+        display: none;
+    }
+    .content3-2{
+        justify-content: end;
+    }
+    .content3-4{
+        justify-content: end;
+    }
+    .content3-2-div{
+        width: 80%;
+        margin-top: 0px;
+    }
+    .content3-3-div{
+        width: 80%;
+        margin-top: 0px;
+    }
+    .content3-4-div{
+        width: 80%;
+        margin-top: 0px;
+    }
+    .content3-2{
+        margin-top: 50px;
+    }
+    .content3-3{
+        margin-top: 50px;
+    }
+    .content3-4{
+        margin-top: 50px;
+    }
+    .main2{
+        padding-bottom: 50px;
+    }
+    .content1-1-h1{
+        font-size: 40px;
+    }
+    .content1-1-p1{
+        width: 100%;
+    }
+    #divForimg1{
+        float: none;
+    }
+    #divForimg2{
+        float: none;
+    }
+    #divForimg3{
+        float: none;
+    }
+    .divForImg{
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+    .divForImg:hover{
+        width: 85%;
+    }
+    .main1{
+        padding-bottom: 50px;
+    }
+    .content2-1{
+        padding-top: 40px;
+        width: 100%;
+    }
+    .textInFoto-p1{
+        display: block;
+    }
+    .textInFoto1{
+        margin-top: 184px;
+    }
+    .textInFoto2{
+        margin-top: 184px;
+    }
+    .textInFoto3{
+        margin-top: 184px;
+    }
+    #divForimg4, #divForimg5, #divForimg6{
+        display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    .main3-h1{
+        font-size: 30px;
+    }
+    .footer-h1{
+        font-size: 25px;
+        padding-top: 8px;
+    }
+    .footer-img1{
+        width: 35px;
+    }
+    .footer-img2{
+        width: 35px;
+    }
+    .footer-img3{
+        width: 35px;
+    }
+    .footer-icons{
+        padding-top: 7px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .content3-2-div{
+        width: 100%;
+    }
+    .content3-3-div{
+        width: 100%;
+    }
+    .content3-4-div{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 420px) {
+    .content1-1-h1{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .main3-h1{
+        font-size: 25px;
+    }
+    .footer-h1{
+        font-size: 20px;
+        padding-top: 11px;
+    }
+    .content2-1{
+        width: 100%;
+    }
+    .divForImg{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+    .divForImg:hover{
+        width: 90%;
+    }
+}

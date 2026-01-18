@@ -1,0 +1,27 @@
+/*main8*/
+
+.main8{
+    background-image: url(../images/main8-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.main8-content{
+    width: 90%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.main8-img{
+    width: 100px;
+    margin-top: 100px;
+}
+.main8-h1{
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;;
+    font-weight: 500;
+    color: rgb(11, 55, 92);
+    margin-top: 20px;
+    width: 70%;
+    letter-spacing: 2px;
+    line-height: 60px;
+}

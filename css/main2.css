@@ -1,0 +1,286 @@
+
+.main2{
+    background-color: #E8E8E8;
+    position: relative;
+    z-index: 10;
+    padding-bottom: 100px;
+}
+.main2_content{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.main2_h1{
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    font-size: 45px;
+}
+.main2_link1_block1{
+    background-color: #c5c5c5;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow:  0px 9px 10px 0px #2b2b2b;
+    padding-top: 20px;
+    transition: 0.3s;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+.main2_link2_block1{
+    background-color: #c5c5c5;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow:  0px 9px 10px 0px #2b2b2b;
+    padding-top: 20px;
+    transition: 0.3s;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+.main2_link3_block1{
+    background-color: #c5c5c5;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow:  0px 9px 10px 0px #2b2b2b;
+    padding-top: 20px;
+    transition: 0.3s;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+.main2_link4_block1{
+    background-color: #c5c5c5;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow:  0px 9px 10px 0px #2b2b2b;
+    padding-top: 20px;
+    transition: 0.3s;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+.main2_link5_block1{
+    background-color: #c5c5c5;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow:  0px 9px 10px 0px #2b2b2b;
+    padding-top: 20px;
+    transition: 0.3s;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.main2_link1_block1:hover .main2-img1{
+    background-position: 50% 100%;
+    transition: 3s, filter 0.3s, box-shadow 0.3s;
+    box-shadow:  0px 0px 15px 0px #f9f9f9;
+    filter: brightness(1);
+}
+.main2_link2_block1:hover .main2-img2{
+    background-position: 50% 100%;
+    transition: 2s, filter 0.3s, box-shadow 0.3s;
+    box-shadow:  0px 0px 15px 0px #f9f9f9;
+    filter: brightness(1);
+}
+.main2_link3_block1:hover .main2-img3{
+    background-position: 50% 100%;
+    transition: 2s, filter 0.3s, box-shadow 0.3s;
+    box-shadow:  0px 0px 15px 0px #f9f9f9;
+    filter: brightness(1);
+}
+.main2_link4_block1:hover .main2-img4{
+    background-position: 50% 100%;
+    transition: 2s, filter 0.3s, box-shadow 0.3s;
+    box-shadow:  0px 0px 15px 0px #f9f9f9;
+    filter: brightness(1);
+}
+.main2_link5_block1:hover .main2-img5{
+    background-position: 50% 100%;
+    transition: 2s, filter 0.3s, box-shadow 0.3s;
+    box-shadow:  0px 0px 15px 0px #f9f9f9;
+    filter: brightness(1);
+}
+.main2_link1_block1:hover .main2_h2{
+    color: white;
+    transition: 1s;
+}
+.main2_link2_block1:hover .main2_h3{
+    color: white;
+    transition: 1s;
+}
+.main2_link3_block1:hover .main2_h4{
+    color: white;
+    transition: 1s;
+}
+.main2_link4_block1:hover .main2_h5{
+    color: white;
+    transition: 1s;
+}
+.main2_link5_block1:hover .main2_h6{
+    color: white;
+    transition: 1s;
+}
+
+.main2-img1{
+    background-image: url(../images/FoodForDog.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 440px;
+    border-radius: 15px;
+    margin-top: 10px;
+    box-shadow:  3px 9px 10px 0px #2b2b2b;
+    margin: 0 auto;
+    transition: 1s, filter 0.3s;
+    filter: brightness(0.5);
+}
+.main2-img5{
+    background-image: url(../images/Buissnes.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 440px;
+    border-radius: 15px;
+    margin-top: 10px;
+    box-shadow:  3px 9px 10px 0px #2b2b2b;
+    margin: 0 auto;
+    transition: 1s, filter 0.3s;
+    filter: brightness(0.5);
+}
+.main2-img2{
+    background-image: url(../images/FoodSite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 440px;
+    border-radius: 15px;
+    margin-top: 10px;
+    box-shadow:  3px 9px 10px 0px #2b2b2b;
+    margin: 0 auto;
+    transition: 1s, filter 0.3s;
+    filter: brightness(0.5);
+}
+.main2-img3{
+    background-image: url(../images/funWeather.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 440px;
+    border-radius: 15px;
+    margin-top: 10px;
+    box-shadow:  3px 9px 10px 0px #2b2b2b;
+    margin: 0 auto;
+    transition: 1s, filter 0.3s;
+    filter: brightness(0.5);
+}
+.main2-img4{
+    background-image: url(../images/ToorSite.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 260px;
+    height: 440px;
+    border-radius: 15px;
+    margin-top: 10px;
+    box-shadow:  3px 9px 10px 0px #2b2b2b;
+    margin: 0 auto;
+    transition: 1s, filter 0.3s;
+    filter: brightness(0.5);
+}
+.main2_content_block1{
+    text-align: center;
+}
+.main2-link1{
+    text-decoration: none;
+    display: inline-block;
+}
+.main2-link2{
+    text-decoration: none;
+    display: inline-block;
+}
+.main2-link3{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+.main2-link4{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+.main2-link5{
+    text-decoration: none;
+    display: inline-block;
+}
+.main2_link1_block1:hover{
+    box-shadow:  0px 15px 30px 0px #2b2b2b;
+    transition: 0.3s;
+}
+.main2_link2_block1:hover{
+    box-shadow:  0px 15px 30px 0px #2b2b2b;
+    transition: 0.3s;
+}
+.main2_link3_block1:hover{
+    box-shadow:  0px 15px 30px 0px #2b2b2b;
+    transition: 0.3s;
+}
+.main2_link4_block1:hover{
+
+    box-shadow:  0px 15px 30px 0px #2b2b2b;
+    transition: 0.3s;
+}
+.main2_link5_block1:hover{
+    box-shadow:  0px 15px 30px 0px #2b2b2b;
+    transition: 0.3s;
+}
+.main2_h2{
+    font-family: 'Fresca', sans-serif;
+    font-size: 40px;
+    color: #434343;
+    text-align: center;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+.main2_h3{
+    font-family: 'Fresca', sans-serif;
+    font-size: 40px;
+    color: #434343;
+    text-align: center;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+.main2_h4{
+    font-family: 'Fresca', sans-serif;
+    font-size: 40px;
+    color: #434343;
+    text-align: center;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+.main2_h5{
+    font-family: 'Fresca', sans-serif;
+    font-size: 40px;
+    color: #434343;
+    text-align: center;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+.main2_h6{
+    font-family: 'Fresca', sans-serif;
+    font-size: 40px;
+    color: #434343;
+    text-align: center;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+.main2_line{
+    background-color: #CFCFCF;
+    width: 300px;
+    height: 3px;
+    margin: 0 auto;
+}

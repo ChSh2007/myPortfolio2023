@@ -1,0 +1,361 @@
+/*header*/
+
+._anim-Show_main1-1 {
+    opacity: 1;
+}
+._anim-Show_main1-1._active,
+._active ._anim-Show_main1-1{
+    animation: anime2 2s cubic-bezier(0.16, 1, 0.3, 1) alternate;
+    animation-fill-mode: forwards; 
+}
+
+._anim-Show_main1-2 {
+    opacity: 1;
+}
+._anim-Show_main1-2._active,
+._active ._anim-Show_main1-2{
+    animation: anime2 2s cubic-bezier(0.16, 1, 0.3, 1) 1s  alternate;
+    animation-fill-mode: forwards; 
+}
+
+._anim-Show_header_content_block1 {
+    opacity: 0;
+}
+._anim-Show_header_content_block1._active,
+._active ._anim-Show_header_content_block1{
+    opacity: 1;
+    transform: translateX(5%);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+._anim-Show_header_content_block2 {
+    opacity: 0;
+    right: 0%;
+}
+._anim-Show_header_content_block2._active,
+._active ._anim-Show_header_content_block2{
+    opacity: 1;
+    right: 5%;
+    transition: opacity 0.5s, right 0.5s;   
+}
+
+/*main1*/
+
+._anim-Show_main1_h2 {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    left: 1%;   
+}
+._anim-Show_main1_h2._active,
+._active ._anim-Show_main1_h2{
+    animation: main1-anim  1.8s cubic-bezier(0.16, 1, 0.3, 1)  alternate;
+    animation-fill-mode: forwards; 
+}
+
+._anim-Show_main1_line1 {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    left: 1%;
+}
+._anim-Show_main1_line1._active,
+._active ._anim-Show_main1_line1{
+    animation: main1-anim  1.9s cubic-bezier(0.16, 1, 0.3, 1)  alternate;
+    animation-fill-mode: forwards; 
+}
+
+._anim-Show_main1_p1 {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    left: 1%;
+}
+._anim-Show_main1_p1._active,
+._active ._anim-Show_main1_p1{
+    animation: main1-anim  2s cubic-bezier(0.16, 1, 0.3, 1)  alternate;
+    animation-fill-mode: forwards; 
+}
+
+._anim-Show_main1_h3 {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    left: 1%;
+}
+._anim-Show_main1_h3._active,
+._active ._anim-Show_main1_h3{
+    animation: main1-anim  3s cubic-bezier(0.16, 1, 0.3, 1) alternate;
+    animation-fill-mode: forwards; 
+}
+
+._anim-Show_main1_line2 {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    left: 1%;
+}
+._anim-Show_main1_line2._active,
+._active ._anim-Show_main1_line2{
+    animation: main1-anim 3.1s cubic-bezier(0.16, 1, 0.3, 1) alternate;
+    animation-fill-mode: forwards; 
+}
+
+._anim-Show_main1_p2 {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    left: 1%;
+}
+._anim-Show_main1_p2._active,
+._active ._anim-Show_main1_p2{
+    animation: main1-anim  3.2s cubic-bezier(0.16, 1, 0.3, 1) alternate;
+    animation-fill-mode: forwards; 
+}
+
+/*main3*/
+
+._anim-Show_main3_block1._active,
+._active ._anim-Show_main3_block1{
+    animation: main3_anim 1.8s cubic-bezier(0.16, 1, 0.3, 1) 0.5s alternate;
+    animation-fill-mode: forwards; 
+}
+._anim-Show_main3_block2._active,
+._active ._anim-Show_main3_block2{
+    animation: main3_anim 1.8s cubic-bezier(0.16, 1, 0.3, 1) 0.6s alternate;
+    animation-fill-mode: forwards; 
+}
+._anim-Show_main3_block3._active,
+._active ._anim-Show_main3_block3{
+    animation: main3_anim 1.8s cubic-bezier(0.16, 1, 0.3, 1) 0.7s alternate;
+    animation-fill-mode: forwards; 
+}
+._anim-Show_main3_block4._active,
+._active ._anim-Show_main3_block4{
+    animation: main3_anim 1.8s cubic-bezier(0.16, 1, 0.3, 1) 0.8s alternate;
+    animation-fill-mode: forwards; 
+}
+._anim-Show_main3_block5._active,
+._active ._anim-Show_main3_block5{
+    animation: main3_anim 1.8s cubic-bezier(0.16, 1, 0.3, 1) 0.9s alternate;
+    animation-fill-mode: forwards; 
+}
+._anim-Show_main3_h2 {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(90px);
+}
+._anim-Show_main3_h2._active,
+._active ._anim-Show_main3_h2{
+    opacity: 1;
+    pointer-events: all;
+    transform: translateX(75px);
+    transition: 0.5s;
+    transition-delay: 1s;
+}
+._anim-Show_main3_h3 {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(90px);
+}
+._anim-Show_main3_h3._active,
+._active ._anim-Show_main3_h3{
+    opacity: 1;
+    pointer-events: all;
+    transform: translateX(75px);
+    transition: 0.5s;
+    transition-delay: 1.2s;
+}
+._anim-Show_main3_h4 {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(90px);
+}
+._anim-Show_main3_h4._active,
+._active ._anim-Show_main3_h4{
+    opacity: 1;
+    pointer-events: all;
+    transform: translateX(75px);
+    transition: 0.5s;
+    transition-delay: 1.2s;
+}
+._anim-Show_main3_h5 {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(90px);
+}
+._anim-Show_main3_h5._active,
+._active ._anim-Show_main3_h5{
+    opacity: 1;
+    pointer-events: all;
+    transform: translateX(75px);
+    transition: 0.5s;
+    transition-delay: 1.4s;
+}
+._anim-Show_main3_h6 {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(90px);
+}
+._anim-Show_main3_h6._active,
+._active ._anim-Show_main3_h6{
+    opacity: 1;
+    pointer-events: all;
+    transform: translateX(75px);
+    transition: 0.5s;
+    transition-delay: 1.6s;
+}
+
+._anim-Show_main3_progress1 {
+    opacity: 0;
+    pointer-events: none;
+}
+._anim-Show_main3_progress1._active,
+._active ._anim-Show_main3_progress1{
+    opacity: 1;
+    transition: 0.5s;
+    transition-delay: 1.4s;
+}
+._anim-Show_main3_progress2 {
+    opacity: 0;
+    pointer-events: none;
+}
+._anim-Show_main3_progress2._active,
+._active ._anim-Show_main3_progress2{
+    opacity: 1;
+    transition: 0.5s;
+    transition-delay: 1.6s;
+}
+._anim-Show_main3_progress3 {
+    opacity: 0;
+    pointer-events: none;
+}
+._anim-Show_main3_progress3._active,
+._active ._anim-Show_main3_progress3{
+    opacity: 1;
+    transition: 0.5s;
+    transition-delay: 1.8s;
+}
+._anim-Show_main3_progress4 {
+    opacity: 0;
+    pointer-events: none;
+}
+._anim-Show_main3_progress4._active,
+._active ._anim-Show_main3_progress4{
+    opacity: 1;
+    transition: 0.5s;
+    transition-delay: 2s;
+}
+._anim-Show_main3_progress5 {
+    opacity: 0;
+    pointer-events: none;
+}
+._anim-Show_main3_progress5._active,
+._active ._anim-Show_main3_progress5{
+    opacity: 1;
+    transition: 0.5s;
+    transition-delay: 2.2s;
+}
+
+._anim-Show_main3_progress1-1._active,
+._active ._anim-Show_main3_progress1-1{
+    animation: load 3s normal 1.4s forwards;
+}
+._anim-Show_main3_progress2-1._active,
+._active ._anim-Show_main3_progress2-1{
+    animation: load 3s normal 1.6s forwards;
+}
+._anim-Show_main3_progress3-1._active,
+._active ._anim-Show_main3_progress3-1{
+    animation: load2 3s normal 1.8s forwards;
+}
+._anim-Show_main3_progress4-1._active,
+._active ._anim-Show_main3_progress4-1{
+    animation: load3 3s normal 2s forwards;
+}
+._anim-Show_main3_progress5-1._active,
+._active ._anim-Show_main3_progress5-1{
+    animation: load4 3s normal 2.2s forwards;
+}
+
+._anim-Show_main3_procent1 {
+    opacity: 0;
+    pointer-events: none;
+}
+._anim-Show_main3_procent1._active,
+._active ._anim-Show_main3_procent1{
+    opacity: 1;
+    transition: 0.5s;
+    transition-delay: 2.2s;
+    pointer-events: all;
+}
+._anim-Show_main3_procent2 {
+    opacity: 0;
+    pointer-events: none;
+}
+._anim-Show_main3_procent2._active,
+._active ._anim-Show_main3_procent2{
+    opacity: 1;
+    transition: 0.5s;
+    transition-delay: 2.4s;
+    pointer-events: all;
+}
+._anim-Show_main3_procent3 {
+    opacity: 0;
+    pointer-events: none;
+}
+._anim-Show_main3_procent3._active,
+._active ._anim-Show_main3_procent3{
+    opacity: 1;
+    transition: 0.5s;
+    transition-delay: 2.6s;
+    pointer-events: all;
+}
+._anim-Show_main3_procent4 {
+    opacity: 0;
+    pointer-events: none;
+}
+._anim-Show_main3_procent4._active,
+._active ._anim-Show_main3_procent4{
+    opacity: 1;
+    transition: 0.5s;
+    transition-delay: 2.8s;
+    pointer-events: all;
+}
+._anim-Show_main3_procent5 {
+    opacity: 0;
+    pointer-events: none;
+}
+._anim-Show_main3_procent1._active,
+._active ._anim-Show_main3_procent5{
+    opacity: 1;
+    transition: 0.5s;
+    transition-delay: 3s;
+    pointer-events: all;
+}
+
+/*main4*/
+
+._anim-Show_main4_block2{
+    filter: brightness(0.7);
+}
+._anim-Show_main4_block2._active,
+._active ._anim-Show_main4_block2{
+    transition: 0.5s;
+    animation: main4_block2 3s normal forwards;
+}
+
+
+
+
+
+
+
+
+
+

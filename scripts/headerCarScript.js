@@ -1,0 +1,17 @@
+$(document).ready(function(){
+    $('.header_car_link1').hover(function(event){
+        $('.header_car_info').toggleClass('active');
+        $('.header_car_info_p').toggleClass('active');
+        $('.header_car_info_p').html('инфо');
+    });
+    $('.header_car_link2').hover(function(event){
+        $('.header_car_info').toggleClass('active');
+        $('.header_car_info_p').toggleClass('active');
+        $('.header_car_info_p').html('портфолио');
+    });
+    $('.header_car_link3').hover(function(event){
+        $('.header_car_info').toggleClass('active');
+        $('.header_car_info_p').toggleClass('active');
+        $('.header_car_info_p').html('навыки');
+    });
+})

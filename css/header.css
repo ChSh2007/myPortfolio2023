@@ -1,0 +1,347 @@
+
+header{
+    background-color: #A5D6F7;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+.header_content{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.header_content_block1{
+    position: absolute;
+    z-index: 5;
+    height: 350px;
+    left: 5%;
+    top: 50%;
+    margin-top: -180px;
+}
+.header_content_block2{
+    width: 220px;
+    height: 120px;
+    background-color: #484848;
+    border-radius: 15px;
+    box-shadow:  0px 9px 5px 0px #2b2b2b;
+    border: 4px solid #29295a;
+    position: absolute;
+
+    top: 50%;
+    margin-top: -80px;
+
+    animation-name: anim1;
+    animation-duration: 2.715s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    z-index: 10;
+
+}
+.header_content_block2_block{
+    display: flex;
+    justify-content: space-around;
+}
+
+@keyframes anim1 {
+    0%{
+        transform: translateX(0px);
+    }
+    10%{
+        transform: translateX(0px);
+    }
+    18%{
+        transform: rotate(1deg) translateX(0px); 
+    }
+    20%{
+        transform: rotate(1deg) translateX(0px); 
+    }
+    23%{
+        transform: rotate(4deg) translateX(0px); 
+    }
+    26%{
+        transform: rotate(-3deg) translateX(0px); 
+    }
+    27%{
+        transform: rotate(0deg) translateX(0px); 
+    }
+
+    36%{
+        transform: rotate(0deg) translateX(0px); 
+    }
+    37%{
+        transform: rotate(-4deg) translateX(0px); 
+    }
+    40%{
+        transform: rotate(3deg) translateX(0px); 
+    }
+    41%{
+        transform: rotate(0deg) translateX(0px); 
+    }
+    50%{
+        transform: translateX(0px);
+    }
+    75%{
+        transform: translateX(-15px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+.header_content_block1_block{
+    display: flex;
+}
+.bgForPhoto{
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    background-color: white;
+}
+.MyName{
+    margin-left: 20px;
+}
+.header_line{
+    background-color: rgba(0, 0, 0, 0.433);
+    width: 300px;
+    height: 3px;
+    margin-top: 20px;
+}
+.header_h1{
+    font-size: 50px;
+    font-family: 'Jost', sans-serif;
+    line-height: 55px;
+    margin-top: 10px;
+}
+.header_h2{
+    font-size: 50px;
+    font-family: 'Jost', sans-serif;
+    line-height: 55px;
+}
+.header_p1{
+    font-family: 'Fresca', sans-serif;
+    font-size: 25px;
+    color: #343434;
+    margin-top: 15px;
+}
+.header_p2{
+    font-family: 'Fresca', sans-serif;
+    font-size: 25px;
+    color: #343434;
+}
+.header_button_link{
+    text-decoration: none;
+}
+.header_button{
+    color: black;
+    width: 200px;
+    background-color: #FFDB5E;
+    font-family: 'Fresca', sans-serif;
+    border-radius: 60px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    box-shadow:  0px 5px 10px 0px #2b2b2b;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+.header_button:hover{
+    box-shadow:  0px 9px 10px 0px #2b2b2b;
+    transition: 0.3s;
+    margin-top: 17px;
+}
+.header_car_link1{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+.header_car_link2{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+.header_car_link3{
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+}
+.header_car_block1{
+    width: 53px;
+    height: 53px;
+    background-color: white;
+    border-radius: 10px;
+    border: 4px solid #29295a;
+    box-shadow:  0px 9px 10px 0px #2b2b2b;
+    margin-top: 7px;
+    transition: 0.3s;
+
+    animation-name: anim2;
+    animation-duration: 2.715s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+.header_car_block2{
+    width: 53px;
+    height: 53px;
+    background-color: rgb(206, 206, 206);
+    border-radius: 10px;
+    border: 4px solid #29295a;
+    box-shadow:  0px 9px 10px 0px #2b2b2b;
+    margin-top: 7px;
+    transition: 0.3s;
+
+    animation-name: anim3;
+    animation-duration: 2.715s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+.header_car_block3{
+    width: 53px;
+    height: 53px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 10px;
+    border: 4px solid #29295a;
+    box-shadow:  0px 9px 10px 0px #2b2b2b;
+    margin-top: 7px;
+    transition: 0.3s;
+    animation-name: anim4;
+    animation-duration: 2.715s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+.header_car_block1:hover{
+    border: 4px solid gray;
+    transition: 0.3s;
+    margin-top: 3px;
+}
+.header_car_block2:hover{
+    border: 4px solid rgb(255, 255, 255);
+    transition: 0.3s;
+    margin-top: 3px;
+}
+.header_car_block3:hover{
+    border: 4px solid rgb(83, 83, 83);
+    transition: 0.3s;
+    margin-top: 3px;
+}
+.header_car_img1{
+    width: 38px;
+    height: 33px;
+    margin-left: 7px;
+    margin-top: 10px;
+}
+.header_car_img2{
+    width: 38px;
+    height: 38px;
+    margin-left: 7px;
+    margin-top: 6px;
+}
+.header_car_img3{
+    width: 43px;
+    height: 43px;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+.header_car_info {
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background: #313131;
+    box-shadow:  0 0 0 #313131,
+                 0 0 0 #313131,
+                  5px 5px 5px #313131 inset,
+                  -5px -5px 5px #313131 inset;
+    transition: 0.3s;
+    animation-timing-function: ease;
+    animation-direction: reverse;
+    z-index: 5;
+    position: relative;
+}
+.header_car_info.active{
+    animation: anime 2s cubic-bezier(0.16, 1, 0.3, 1) alternate;
+    transition: 0.3s;
+    animation-fill-mode: forwards; 
+}
+.header_car_info_p{
+    opacity: 0;
+    pointer-events: none;
+    font-family: 'Fresca', sans-serif;
+    font-size: 23px;
+    margin-left: 20px;
+}
+.header_car_info_p.active{
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.3s;
+    text-align: center;
+    transition-delay: 0.6s;
+    margin-left: 0px;
+}
+.header_car_decore{
+    position: absolute;
+    color: rgb(42, 42, 42);
+    margin-left: 50px;
+    margin-top: 16px;
+}
+.header_arrow{
+    background-color: white;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    box-shadow:  0px 5px 10px 0px #2b2b2b;
+    position: absolute;
+    z-index: 5;
+    top: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.header_arrow:hover{
+    top: 89.5%;
+    box-shadow:  0px 8px 10px 0px #2b2b2b;
+    transition: 0.3s;
+}
+.header_arrow_img{
+    width: 39px;
+    height: 40px;
+    transform: rotate(-90deg);
+    margin-top: 5px;
+    animation: arrow_anim 0.5s cubic-bezier(0.16, 1, 0.3, 1) alternate;
+    animation-iteration-count: infinite;
+}
+.header_myPhoto{
+    width: 123px;
+    height: 124px;
+    border-radius: 100px;
+    margin-left: 3px;
+    margin-top: 3px;
+    filter: brightness(0.8);
+}
+.case_pen{
+    width: 80px;
+    height: 20px;
+    background-color: #A5D6F7;
+    box-shadow: 0 0 0 4px #29295a, 0 0 0 7px #484848, 0 0 0 11px #29295a;
+    border-radius: 15px 15px 0 0;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1;
+    transform: translateY(-31px);
+}
